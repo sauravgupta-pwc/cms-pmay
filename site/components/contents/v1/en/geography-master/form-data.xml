@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/dynamicform</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5a47</objectGroupId>
+	<objectId>5a4713ad-f31d-fb72-deb0-2e9bd23825e4</objectId>
+	<internal-name>form-data</internal-name>
+	<name/>
+	<file-name>form-data.xml</file-name>
+	<folder-name/>
+	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
+	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
+	<lastModifiedDate>2019-12-03T13:41:30.579Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-03T13:41:30.579Z</lastModifiedDate_dt>
+</component>
