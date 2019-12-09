@@ -87,7 +87,7 @@
 			<fields>
 				<field>
 					<type>input</type>
-					<id>name</id>
+					<id>pageTitle</id>
 					<iceId></iceId>
 					<title>pageTitle</title>
 					<description></description>
