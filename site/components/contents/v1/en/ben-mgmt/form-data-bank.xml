@@ -4,15 +4,15 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>6ae1d65d</objectGroupId>
 	<objectId>6ae1d65d-d815-4103-8225-5628afd331b0</objectId>
-	<internal-name>form-data-bank </internal-name>
-	<file-name>form-data-bank.xml</file-name>
-	<folder-name>/site/components/contents/v1/en</folder-name>
+	<internal-name>form-data-view</internal-name>
+	<file-name>form-data-view.xml</file-name>
+	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2019-12-11T07:10:39.268Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-12-11T07:10:39.268Z</lastModifiedDate_dt>
-	<section1 item-list="true">	<item>	<label>User Id</label>
-	<name>userId</name>
+	<lastModifiedDate>2019-12-11T11:09:42.560Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-11T11:09:42.560Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Beneficiary Name</label>
+	<name>benName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -23,9 +23,9 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Password</label>
-	<name>password</name>
-	<type>password</type>
+	</item>	<item>	<label>Beneficiary Code</label>
+	<name>benCode</name>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -35,20 +35,20 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>User Role</label>
-	<name>userRole</name>
+	</item>	<item>	<label>Project Name</label>
+	<name>projectName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>3</orderBy>
-	<version>V1</version>
+	<version/>
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Name</label>
-	<name>name</name>
+	</item>	<item>	<label>Annexure Id</label>
+	<name>annexureId</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -59,32 +59,32 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Designation</label>
-	<name>designation</name>
+	</item>	<item>	<label>City Code</label>
+	<name>cityCode</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>5</orderBy>
-	<version>V1</version>
+	<version/>
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Email</label>
-	<name>email</name>
-	<type>text</type>
+	</item>	<item>	<label>State Code</label>
+	<name>stateCode</name>
+	<type/>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>6</orderBy>
-	<version>V1</version>
+	<version/>
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Mobile Number</label>
-	<name>mobile</name>
+	</item>	<item>	<label>Survey Code</label>
+	<name>surveyCode</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -95,8 +95,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Address</label>
-	<name>address</name>
+	</item>	<item>	<label>Father Name</label>
+	<name>fatherName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -107,8 +107,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>City</label>
-	<name>city</name>
+	</item>	<item>	<label>Age</label>
+	<name>age</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -119,8 +119,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>District</label>
-	<name>district</name>
+	</item>	<item>	<label>Gender</label>
+	<name>gender</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -131,8 +131,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Pincode</label>
-	<name>pincode</name>
+	</item>	<item>	<label>Religion</label>
+	<name>religion</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -143,6 +143,234 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
+	</item>	<item>	<label>Component Name</label>
+	<name>componentName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>12</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>DOE</label>
+	<name>doe</name>
+	<type/>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>13</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>DOEO</label>
+	<name>doeo</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>14</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>IsPWD</label>
+	<name>isPwd</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>15</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>ID_Type</label>
+	<name>idType</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>16</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Other ID</label>
+	<name>otherId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>17</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Aadhaar Number</label>
+	<name>aadharNumber</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>18</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Ward_Name</label>
+	<name>wardName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>19</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Address</label>
+	<name>address</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>20</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Bank_Name</label>
+	<name>bankName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>21</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Branch_Name</label>
+	<name>branchName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>22</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Account_No</label>
+	<name>accountNumber</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>23</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>IFSC_Code</label>
+	<name>ifscCode</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>24</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Aadhar Status</label>
+	<name>aadharStatus</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>25</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Mobile No</label>
+	<name>mobileNumber</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>26</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Geo_Tagged_Status</label>
+	<name>geoTaggedStatus</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>27</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>City_Name</label>
+	<name>cityName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>28</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>District_Name</label>
+	<name>districtName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>29</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>State Name</label>
+	<name>stateName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>30</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
 	</item>	<item>	<label>Status</label>
 	<name>status</name>
 	<type>text</type>
@@ -150,11 +378,11 @@
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
-	<orderBy>12</orderBy>
-	<version>V1</version>
+	<orderBy>31</orderBy>
+	<version/>
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
 	</item></section1>
-	<pageTitle>User Management</pageTitle>
+	<pageTitle>Beneficiary Management</pageTitle>
 </component>
