@@ -6,16 +6,16 @@
 	<objectId>e822b8ca-8979-41cc-9f6f-01a5088c773f</objectId>
 	<internal-name>form-data  </internal-name>
 	<file-name>form-data.xml</file-name>
-	<folder-name>/site/components/contents/v1/en</folder-name>
+	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2019-12-09T08:10:43.915Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-12-09T08:10:43.915Z</lastModifiedDate_dt>
-	<section1 item-list="true">	<item>	<label>Role Name</label>
-	<name>roleName</name>
-	<type>text</type>
-	<validationType>custom</validationType>
-	<validationExpr>^[a-zA-Z0-9\s]{1,100}$</validationExpr>
+	<lastModifiedDate>2019-12-12T08:00:31.400Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-12T08:00:31.400Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Select Page</label>
+	<name>page</name>
+	<type>dropdown</type>
+	<validationType/>
+	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>1</orderBy>
@@ -23,9 +23,9 @@
 	<required>true</required>
 	<readonly>false</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Menu Name</label>
-	<name>menuName</name>
-	<type>dropdown</type>
+	</item>	<item>	<label>Document Type</label>
+	<name>docType</name>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -36,5 +36,5 @@
 	<readonly>false</readonly>
 	<isVisible>true</isVisible>
 	</item></section1>
-	<pageTitle>Role Management</pageTitle>
+	<pageTitle>Document Management</pageTitle>
 </component>
