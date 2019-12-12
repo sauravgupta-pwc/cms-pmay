@@ -6,13 +6,13 @@
 	<objectId>5de343de-b418-42b9-8191-008ecceecacd</objectId>
 	<internal-name>form-data-view  </internal-name>
 	<file-name>form-data-view.xml</file-name>
-	<folder-name>/site/components/contents/v1/en</folder-name>
+	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2019-12-12T13:02:59.950Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-12-12T13:02:59.950Z</lastModifiedDate_dt>
-	<section1 item-list="true">	<item>	<label>Annexure Id</label>
-	<name>annexureId</name>
+	<lastModifiedDate>2019-12-12T13:42:44.491Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-12T13:42:44.491Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>State</label>
+	<name>state</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -23,8 +23,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Zone Office Id</label>
-	<name>zoneOfficeId</name>
+	</item>	<item>	<label>District</label>
+	<name>district</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -35,8 +35,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>ULB Id</label>
-	<name>ulbId</name>
+	</item>	<item>	<label>City Name</label>
+	<name>cityName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -47,8 +47,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Beneficiary Code</label>
-	<name>benCode</name>
+	</item>	<item>	<label>City Code</label>
+	<name>cityCode</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -59,8 +59,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Old Beneficiary Name</label>
-	<name>oldBenName</name>
+	</item>	<item>	<label>Ward Name</label>
+	<name>wardName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -71,8 +71,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Old Beneficiary Aadhar</label>
-	<name>oldBenAadhar</name>
+	</item>	<item>	<label>Ward Code</label>
+	<name>wardCode</name>
 	<type/>
 	<validationType/>
 	<validationExpr/>
@@ -83,8 +83,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Old Bank Account Number</label>
-	<name>oldBankAccNum</name>
+	</item>	<item>	<label>Annexure ID</label>
+	<name>annexureId</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -95,8 +95,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Old Bank Name</label>
-	<name>oldBankName</name>
+	</item>	<item>	<label>Beneficiary Code</label>
+	<name>benCode</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -107,8 +107,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Old IFSC Code</label>
-	<name>oldIFSCCode</name>
+	</item>	<item>	<label>Beneficiary Name</label>
+	<name>benName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -119,8 +119,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Nominee Beneficiary Name</label>
-	<name>nomBenName</name>
+	</item>	<item>	<label>Beneficiary Father Name</label>
+	<name>benFathName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -131,8 +131,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Nominee Aadhar</label>
-	<name>nomAadhar</name>
+	</item>	<item>	<label>Project Name</label>
+	<name>projectName</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -143,8 +143,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Nominee Bank Account Number</label>
-	<name>nomAccNumber</name>
+	</item>	<item>	<label>Levels Geotagged</label>
+	<name>levelsGeoTagged</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -155,8 +155,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Nominee Bank Name</label>
-	<name>nomBankName</name>
+	</item>	<item>	<label>Current Level Geotagged</label>
+	<name>currentLevelGeo</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -167,8 +167,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Nominee Bank IFSC Code</label>
-	<name>nomIFSC</name>
+	</item>	<item>	<label>Date of upload of last level</label>
+	<name>dateUploadLastLev</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -179,8 +179,8 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Death Case Update Date</label>
-	<name>deathUpdateDate</name>
+	</item>	<item>	<label>Status</label>
+	<name>status</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -191,6 +191,30 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
+	</item>	<item>	<label>Date of Acceptance</label>
+	<name>dateOfAcc</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>16</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Accepted By</label>
+	<name>acceptedBy</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>17</orderBy>
+	<version/>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
 	</item></section1>
-	<pageTitle>Death-Case Management</pageTitle>
+	<pageTitle>Geo-Tag Management</pageTitle>
 </component>
