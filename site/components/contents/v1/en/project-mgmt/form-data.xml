@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/dynamicform</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c0345be4</objectGroupId>
+	<objectId>c0345be4-be51-4bbc-a69a-5bf14f4068cb</objectId>
+	<internal-name>form-data   </internal-name>
+	<file-name>form-data.xml</file-name>
+	<folder-name>/site/components/contents/v1/en</folder-name>
+	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
+	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
+	<lastModifiedDate>2019-12-12T08:00:31.400Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-12T08:00:31.400Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Select Page</label>
+	<name>page</name>
+	<type>dropdown</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>1</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>false</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Document Type</label>
+	<name>docType</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>2</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>false</readonly>
+	<isVisible>true</isVisible>
+	</item></section1>
+	<pageTitle>Document Management</pageTitle>
+</component>
