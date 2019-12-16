@@ -9,10 +9,10 @@
 	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2019-12-13T21:57:22.031Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-12-13T21:57:22.031Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-12-16T06:41:44.403Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-16T06:41:44.403Z</lastModifiedDate_dt>
 	<section1 item-list="true">	<item>	<label>IDD</label>
-	<name>IDD</name>
+	<name>idd</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -24,7 +24,7 @@
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Project Code</label>
-	<name>Project_Code</name>
+	<name>projectCode</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
@@ -36,8 +36,8 @@
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Project Name</label>
-	<name>projectname</name>
-	<type/>
+	<name>projectName</name>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -67,6 +67,138 @@
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>5</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Component Name</label>
+	<name>componentName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>6</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Central Share</label>
+	<name>centralShare</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>7</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>State Share</label>
+	<name>stateShare</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>8</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>ULB Share</label>
+	<name>ulbShare</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>9</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Ben Share</label>
+	<name>benShare</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>10</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Male</label>
+	<name>male</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>11</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Female</label>
+	<name>female</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>12</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Transgender</label>
+	<name>transgender</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>13</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Joint</label>
+	<name>joint</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>14</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>PWD</label>
+	<name>pwd</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>15</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Minority</label>
+	<name>minority</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>16</orderBy>
 	<version>V1</version>
 	<required>false</required>
 	<readonly>true</readonly>
