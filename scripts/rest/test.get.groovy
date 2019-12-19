@@ -1,5 +1,3 @@
-implements
-
 import org.craftercms.engine.model.SiteItem;
 import org.dom4j.Document;
 
@@ -21,5 +19,3 @@ document.selectSingleNode("component/file-name").detach();
 document.selectSingleNode("component/folder-name").detach();
 
 return document;
-
-mmm
