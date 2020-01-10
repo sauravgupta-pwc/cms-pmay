@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/dynamicform</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5b9e0709</objectGroupId>
+	<objectId>5b9e0709-01fc-4941-8e8d-e8f2e147ded3</objectId>
+	<internal-name>form-data-consultant </internal-name>
+	<file-name>form-data-consultant.xml</file-name>
+	<folder-name>/site/components/contents/v1/en</folder-name>
+	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
+	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
+	<lastModifiedDate>2019-12-11T07:51:33.187Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-11T07:51:33.187Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Consultant Id</label>
+	<name>consultantId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>1</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Password</label>
+	<name>password</name>
+	<type>password</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>2</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Name</label>
+	<name>name</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>3</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Address</label>
+	<name>address</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>4</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Contact</label>
+	<name>contact</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>5</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Email</label>
+	<name>email</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>6</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Mobile Number</label>
+	<name>mobile</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>7</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>PAN Number</label>
+	<name>panNumber</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>8</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>GST Number</label>
+	<name>gstNumber</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>9</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Empannelled On</label>
+	<name>empannelledOn</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>10</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Status</label>
+	<name>status</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>11</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item></section1>
+	<pageTitle>User Management</pageTitle>
+</component>
