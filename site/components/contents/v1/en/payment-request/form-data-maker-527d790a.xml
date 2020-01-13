@@ -4,49 +4,289 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>35731b79</objectGroupId>
 	<objectId>35731b79-3f99-4b74-a7fb-60ea4b9b5967</objectId>
-	<internal-name>form-data-maker 527d790a</internal-name>
-	<file-name>form-data-maker-527d790a.xml</file-name>
-	<folder-name>payment-request</folder-name>
+	<internal-name>form-data-detail-view</internal-name>
+	<file-name>form-data-detail-view.xml</file-name>
+	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2020-01-10T07:53:08.905Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-01-10T07:53:08.905Z</lastModifiedDate_dt>
-	<section1 item-list="true">	<item>	<label>Project Name</label>
-	<name>projectName</name>
-	<type>dropdown</type>
+	<lastModifiedDate>2020-01-13T09:51:30.257Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-13T09:51:30.257Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Payment Request ID</label>
+	<name>payReqId</name>
+	<type>textbox</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>1</orderBy>
 	<version>V1</version>
-	<required>true</required>
+	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Installment Number</label>
-	<name>installmentNumber</name>
-	<type>dropdown</type>
+	</item>	<item>	<label>Unique Payment ID</label>
+	<name>uniquePayId</name>
+	<type>textbox</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
 	<orderBy>2</orderBy>
 	<version>V1</version>
-	<required>true</required>
+	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
 	</item></section1>
-	<pageTitle>Payment-Request-Maker</pageTitle>
-	<docSection item-list="true">	<item>	<label>Document Type</label>
-	<name>documentType</name>
-	<type>dropdown</type>
+	<pageTitle>Payment-Request-Detail-View</pageTitle>
+	<docSection item-list="true">	<item>	<label>Beneficiary code</label>
+	<name>benCode</name>
+	<type>textbox</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
 	<defaultValue/>
-	<orderBy>1</orderBy>
+	<orderBy/>
+	<version>3</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Beneficiary Mobile no.</label>
+	<name>benMobileNo</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>4</orderBy>
 	<version>V1</version>
-	<required>true</required>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Full Name in English</label>
+	<name>fullNameEng</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>5</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Full Name in Recognized Official Language</label>
+	<name>fullNameRecOfficialLang</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>6</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Gender	</label>
+	<name>gender</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>7</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Address line 1</label>
+	<name>addLine1</name>
+	<type>textarea</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>8</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Address Line 2	</label>
+	<name>addLine2</name>
+	<type>textarea</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>9</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Address Line 3</label>
+	<name>addLine3</name>
+	<type>textarea</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>10</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>District</label>
+	<name>district</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>11</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>State	</label>
+	<name>state</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>12</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Country	</label>
+	<name>country</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>13</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Bank Name</label>
+	<name>bankName</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>14</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>IFSC Code</label>
+	<name>ifscCode</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>15</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Account Number</label>
+	<name>accNum</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>16</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Aadhaar Number</label>
+	<name>aadharNum</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>17</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Pin code</label>
+	<name>pinCode</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>18</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Annexure id</label>
+	<name>annexureId</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>19</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Centre Share Payment Amount</label>
+	<name>centreSharePayAmount</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>20</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>State Share Payment Amount</label>
+	<name>stateSharePayAmount</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>21</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Request creation date</label>
+	<name>reqCreationDate</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>22</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Status</label>
+	<name>status</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>23</orderBy>
+	<version>V1</version>
+	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
 	</item></docSection>
