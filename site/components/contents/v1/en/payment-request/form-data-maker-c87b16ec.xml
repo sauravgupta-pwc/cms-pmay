@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/dynamicform</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1b998298</objectGroupId>
+	<objectId>1b998298-b67f-4e4c-ac45-40a59b8126e3</objectId>
+	<internal-name>form-data-maker c87b16ec</internal-name>
+	<file-name>form-data-maker-c87b16ec.xml</file-name>
+	<folder-name>payment-request</folder-name>
+	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
+	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
+	<lastModifiedDate>2020-01-10T07:53:08.905Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-10T07:53:08.905Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Project Name</label>
+	<name>projectName</name>
+	<type>dropdown</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>1</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Installment Number</label>
+	<name>installmentNumber</name>
+	<type>dropdown</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>2</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item></section1>
+	<pageTitle>Payment-Request-Maker</pageTitle>
+	<docSection item-list="true">	<item>	<label>Document Type</label>
+	<name>documentType</name>
+	<type>dropdown</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>1</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item></docSection>
+</component>
