@@ -9,11 +9,11 @@
 	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2020-01-13T09:51:30.257Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-01-13T09:51:30.257Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-01-16T12:30:58.170Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-16T12:30:58.170Z</lastModifiedDate_dt>
 	<section1 item-list="true">	<item>	<label>Payment Request ID</label>
 	<name>payReqId</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -25,7 +25,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Unique Payment ID</label>
 	<name>uniquePayId</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -39,7 +39,7 @@
 	<pageTitle>Payment-Request-Detail-View</pageTitle>
 	<docSection item-list="true">	<item>	<label>Beneficiary code</label>
 	<name>benCode</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -51,7 +51,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Beneficiary Mobile no.</label>
 	<name>benMobileNo</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -63,7 +63,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Full Name in English</label>
 	<name>fullNameEng</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -75,7 +75,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Full Name in Recognized Official Language</label>
 	<name>fullNameRecOfficialLang</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -87,7 +87,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Gender	</label>
 	<name>gender</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -99,7 +99,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Address line 1</label>
 	<name>addLine1</name>
-	<type>textarea</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -111,7 +111,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Address Line 2	</label>
 	<name>addLine2</name>
-	<type>textarea</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -123,7 +123,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Address Line 3</label>
 	<name>addLine3</name>
-	<type>textarea</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -135,7 +135,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>District</label>
 	<name>district</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -147,7 +147,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>State	</label>
 	<name>state</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -159,7 +159,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Country	</label>
 	<name>country</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -171,7 +171,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Bank Name</label>
 	<name>bankName</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -183,7 +183,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>IFSC Code</label>
 	<name>ifscCode</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -195,7 +195,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Account Number</label>
 	<name>accNum</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -207,7 +207,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Aadhaar Number</label>
 	<name>aadharNum</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -219,7 +219,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Pin code</label>
 	<name>pinCode</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -231,7 +231,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Annexure id</label>
 	<name>annexureId</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -243,7 +243,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Centre Share Payment Amount</label>
 	<name>centreSharePayAmount</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -255,7 +255,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>State Share Payment Amount</label>
 	<name>stateSharePayAmount</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -267,7 +267,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Request creation date</label>
 	<name>reqCreationDate</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
@@ -279,7 +279,7 @@
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Status</label>
 	<name>status</name>
-	<type>textbox</type>
+	<type>text</type>
 	<validationType/>
 	<validationExpr/>
 	<cssPath/>
