@@ -9,8 +9,8 @@
 	<folder-name/>
 	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
 	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
-	<lastModifiedDate>2020-01-16T12:30:58.170Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-01-16T12:30:58.170Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-01-24T07:28:30.011Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-24T07:28:30.011Z</lastModifiedDate_dt>
 	<section1 item-list="true">	<item>	<label>Payment Request ID</label>
 	<name>payReqId</name>
 	<type>text</type>
@@ -241,7 +241,7 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>Centre Share Payment Amount</label>
+	</item>	<item>	<label>Centre Share Payment Amount (INR)</label>
 	<name>centreSharePayAmount</name>
 	<type>text</type>
 	<validationType/>
@@ -253,7 +253,7 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
-	</item>	<item>	<label>State Share Payment Amount</label>
+	</item>	<item>	<label>State Share Payment Amount (INR)</label>
 	<name>stateSharePayAmount</name>
 	<type>text</type>
 	<validationType/>
