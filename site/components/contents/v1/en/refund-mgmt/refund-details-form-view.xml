@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<savedAsDraft>true</savedAsDraft>	<content-type>/component/dynamicform</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b5da</objectGroupId>
+	<objectId>b5da2765-1f49-da1c-741c-0e6f0b6d3307</objectId>
+	<internal-name>refund-details-form-view</internal-name>
+	<pageTitle/>
+	<file-name>refund-details-form-view.xml</file-name>
+	<folder-name/>
+	<section1 item-list="true">	<item>	<label>Unique Payment Id</label>
+	<name>paymentId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>1</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Refund ID</label>
+	<name>refundId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>2</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Beneficiary Code</label>
+	<name>benCode</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>3</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Annexure ID</label>
+	<name>annexureId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>4</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>ULB ID</label>
+	<name>ulbId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>5</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Consultant ID</label>
+	<name>consultantId</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>6</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Payment Stage</label>
+	<name>paymentStage</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>7</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Beneficiary name</label>
+	<name>benName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>8</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Aadhaar Number</label>
+	<name>aadhaar</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>9</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Account Number</label>
+	<name>account</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>10</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Bank Name</label>
+	<name>bankName</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>11</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>IFSC Code</label>
+	<name>ifsc</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>12</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item></section1>
+	<createdDate>2020-02-03T14:05:32.412Z</createdDate>
+	<createdDate_dt>2020-02-03T14:05:32.412Z</createdDate_dt>
+	<lastModifiedDate>2020-02-03T14:05:32.412Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-03T14:05:32.412Z</lastModifiedDate_dt>
+</component>
