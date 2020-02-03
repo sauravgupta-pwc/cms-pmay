@@ -205,5 +205,29 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
+	</item>	<item>	<label>Payment Mode</label>
+	<name>pMode</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>5</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>Payment Date</label>
+	<name>pDate</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>6</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
 	</item></docSection>
 </component>
