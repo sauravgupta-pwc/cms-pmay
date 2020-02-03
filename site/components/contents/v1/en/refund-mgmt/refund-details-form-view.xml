@@ -193,5 +193,17 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
+	</item>	<item>	<label>IFSC code</label>
+	<name>wpIfsc</name>
+	<type>text</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>4</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
 	</item></docSection>
 </component>
