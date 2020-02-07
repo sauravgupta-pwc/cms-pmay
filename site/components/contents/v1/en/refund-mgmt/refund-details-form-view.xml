@@ -155,8 +155,8 @@
 	</item></section1>
 	<createdDate>2020-02-03T14:05:32.412Z</createdDate>
 	<createdDate_dt>2020-02-03T14:05:32.412Z</createdDate_dt>
-	<lastModifiedDate>2020-02-07T10:50:05.422Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-07T10:50:05.422Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-07T11:20:37.691Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-07T11:20:37.691Z</lastModifiedDate_dt>
 	<docSection item-list="true">	<item>	<label>Wrong Payment Name</label>
 	<name>wpName</name>
 	<type>text</type>
@@ -265,5 +265,17 @@
 	<required>false</required>
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
+	</item>	<item>	<label>Reason of refund</label>
+	<name>reason</name>
+	<type>textarea</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>10</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>false</readonly>
+	<isVisible>false</isVisible>
 	</item></docSection>
 </component>
