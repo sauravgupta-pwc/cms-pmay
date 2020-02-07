@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/dynamicform</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1869dacb</objectGroupId>
+	<objectId>1869dacb-24cf-4dae-92aa-f21cb322589d</objectId>
+	<internal-name>form-data-task-detail </internal-name>
+	<file-name>form-data-task-detail.xml</file-name>
+	<folder-name>/site/components/contents/v1/en</folder-name>
+	<createdDate>2019-12-03T13:41:30.579Z</createdDate>
+	<createdDate_dt>2019-12-03T13:41:30.579Z</createdDate_dt>
+	<lastModifiedDate>2020-01-13T14:56:09.849Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-13T14:56:09.849Z</lastModifiedDate_dt>
+	<section1 item-list="true">	<item>	<label>Payment Request ID</label>
+	<name>payReqId</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>1</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item>	<item>	<label>File Name</label>
+	<name>fileName</name>
+	<type>textbox</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>2</orderBy>
+	<version>V1</version>
+	<required>true</required>
+	<readonly>true</readonly>
+	<isVisible>true</isVisible>
+	</item></section1>
+	<pageTitle>Payment-Request</pageTitle>
+	<docSection item-list="true">	<item>	<label>Remarks</label>
+	<name>remarks</name>
+	<type>textarea</type>
+	<validationType/>
+	<validationExpr/>
+	<cssPath/>
+	<defaultValue/>
+	<orderBy>3</orderBy>
+	<version>V1</version>
+	<required>false</required>
+	<readonly>false</readonly>
+	<isVisible>true</isVisible>
+	</item></docSection>
+</component>
