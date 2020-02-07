@@ -155,8 +155,8 @@
 	</item></section1>
 	<createdDate>2020-02-03T14:05:32.412Z</createdDate>
 	<createdDate_dt>2020-02-03T14:05:32.412Z</createdDate_dt>
-	<lastModifiedDate>2020-02-03T14:20:54.270Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-03T14:20:54.270Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-07T10:50:05.422Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-07T10:50:05.422Z</lastModifiedDate_dt>
 	<docSection item-list="true">	<item>	<label>Wrong Payment Name</label>
 	<name>wpName</name>
 	<type>text</type>
@@ -182,7 +182,7 @@
 	<readonly>true</readonly>
 	<isVisible>true</isVisible>
 	</item>	<item>	<label>Account No</label>
-	<name>account</name>
+	<name>wpAccount</name>
 	<type>text</type>
 	<validationType/>
 	<validationExpr/>
